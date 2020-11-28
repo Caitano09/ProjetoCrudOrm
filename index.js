@@ -16,6 +16,6 @@ app.get('/', (req, res)=> res.render('index'))
 app.use('/pessoas', pessoas)
 app.use(express.static(path.join(__dirname, 'public')))
 
-model.sequelize.sync({force: true}).then(() =>{
+model.sequelize.sync({force: false}).then(() =>{
     app.listen(port, () => console.log('CRUD ORM listening...'))
 })

@@ -1,24 +1,26 @@
 <%- include('../partials/header.ejs') %>
 
-<h1>Nova Pessoa</h1>
-<p><a href="/pessoas">Voltar para a lista de pessoas</a></p>
+<h1>New Person</h1>
+<p><a class="btn btn-outline-primary" href="/pessoas">Back</a></p>
+
 <form action="" method="post">
 
     <div class="form-group">
-        <label for="nome">Nome</label>
-        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome">
+        <label for="nome">Name</label>
+        <input type="text" class="form-control" name="nome" id="nome" placeholder="Type your name">
     </div>
     <div class="form-group">
-        <label for="nascimento">Nascimento</label>
-        <input type="text" class="form-control" name="nascimento" id="nascimento"
-            placeholder="Informe a sua data de nascimento">
+        <label for="nascimento">Date of Birth</label>
+        <input type="date" class="form-control" name="nascimento" id="nascimento"
+            placeholder="Type your date of birth">
+    </div>
     <div class="form-group">
-        <label for="cargo">Cargo</label>
+        <label for="cargo">Role</label>
          <input type="text" class="form-control" name="cargo" id="cargo"
-            placeholder="Digite o seu cargo">
+            placeholder="Type your role">
     </div>
 
-    <button type="submit" class="btn btn-default">Salvar</button>
+    <button class="btn btn-primary" type="submit" class="btn btn-default">Save</button>
 
 </form>
 
