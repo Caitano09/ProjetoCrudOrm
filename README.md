@@ -34,7 +34,7 @@ This app features all the latest tools and practices in mobile development!
 1. You need have <code>npm</code> or <code>yarn</code> and a <b>database</b> installed<br>
 2. Clone or Download this repo using the button <b>CODE</b> at the top this page <br>
 3. In the project's directory run <code>npm install</code> or <code>yarn</code> to install dependencies <br>
-Connect your database in the project
+4. Connect your database in the project
 5. Run <code>npm start</code> or <code>yarn start</code> to start the application <br><br>
 
 ## License
